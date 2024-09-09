@@ -1,0 +1,80 @@
+body {
+  background-color: black;
+  color: white;
+}
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.info-item {
+  margin-bottom: 10px;
+}
+
+.flag-icon {
+  height: auto;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+strong {
+  color: #0099ff;
+}
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #1e1e1e;
+  color: #fff;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.image-container {
+  text-align: au;
+  margin-right: 20px; /* Adjust the space between image and text */
+}
+
+.image-container img {
+  display: block;
+  margin: 0 auto;
+  width: 150px; /* Adjust the image size as needed */
+}
+
+.image-container .caption {
+  display: block;
+  margin-top: 5px;
+  font-size: 12px;
+  color: #ccc;
+}
+
+.info-box {
+  max-width: 200px;
+}
+
+.info-item {
+  margin-bottom: 15px;
+}
+
+strong {
+  color: #0099ff;
+}

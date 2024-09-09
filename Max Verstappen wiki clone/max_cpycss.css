@@ -1,0 +1,40 @@
+body {
+  background-color: black;
+  color: white;
+}
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.box {
+  display: inline-block;
+  position: relative;
+  margin: 5px;
+  float: right;
+  width: auto%;
+  height: auto;
+  background-color: black;
+  border: 25%;
+  border-color: white;
+  outline: auto;
+  justify-content: center;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="index.php" method="post">
+      <label for="First Name:"> First Name:</label>
+      <input
+        type="text"
+        id="First Name:"
+        placeholder="Enter you name here"
+        minlength="3"
+        required
+      />
+      <br />
+
+      <label for="Last Name:"> Last Name:</label>
+      <input
+        type="password"
+        id="Last Name:"
+        placeholder="Enter your last name here"
+        minlength="3"
+        required
+      />
+      <br />
+
+      <label for="Email ID">Email Address</label>
+      <input
+        type="mail"
+        id="Email ID"
+        placeholder="Enter your mail here"
+        minlength="8"
+        required
+      />
+      <br />
+
+      <label for="Phone Number">Phone Number</label>
+      <input
+        type="tel"
+        id="Phone Number"
+        pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+        placeholder="Enter your Phone Number here"
+        minlength="10"
+        required
+      />
+      <br />
+
+      <label for="DOB">DOB</label>
+      <input type="date" id="DOB" />
+      <br />
+
+      <label for="title"> Gender</label>
+
+      <label for="HE">HE</label>
+      <input type="radio" id="HE" value="HE" name="Gend" />
+
+      <label for="SHE">SHE</label>
+      <input type="radio" id="SHE" value="SHE" name="Gend" />
+      <br />
+
+      <input type="Submit" /><br />
+      <input type="reset" />
+    </form>
+  </body>
+</html>
