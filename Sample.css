@@ -1,0 +1,33 @@
+h1{
+    text-shadow: 3px 3px 5px;
+
+}
+
+.box{
+    
+    font-size: 5em;
+    width: 250px;
+    height: 250px;
+    border: 5px;
+    border-style: solid;
+    border-color: red;
+    overflow: auto;
+}
+
+#box1{
+    margin-left:auto;
+}
+
+#box2{
+    border-color: green;
+}
+
+#t_image{
+    float: left;
+    height: 265px;
+    margin-right:5px;
+}
+.Sample{
+    border: 5px black solid;
+    display: flow-root;
+}
